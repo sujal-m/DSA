@@ -19,7 +19,7 @@ class Solution:
             nxt = l.next
             prev = l
 
-    def reverseKGroup(self, head: Optional[ListNode], k: int) -> Optional[ListNode]:
+    def reverseKGroup(self, head, k: int):
         # calculate length of LL
         curr = head
         length = 0
